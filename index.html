@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>潼南乡村振兴驾驶舱</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main id="viewport" aria-label="潼南乡村振兴驾驶舱">
+      <div id="stageWrap">
+        <div id="stage">
+          <section class="view is-active" data-view="tonan" aria-label="潼南区页面">
+            <img class="screen-bg" src="./assets/tonan.png" alt="" draggable="false" />
+
+            <button class="hotspot" style="left:758px; top:162px; width:205px; height:78px" data-action="open-modal" data-modal="tonanPrimaryGrowth" aria-label="第一产业增加值同比增长"></button>
+            <button class="hotspot" style="left:752px; top:248px; width:205px; height:78px" data-action="open-modal" data-modal="tonanFixedInvestment" aria-label="农业固定资产投资增速达到"></button>
+            <button class="hotspot" style="left:1004px; top:162px; width:205px; height:78px" data-action="open-modal" data-modal="tonanCivilization" aria-label="全市文明实践活动累计数"></button>
+            <button class="hotspot" style="left:1004px; top:250px; width:205px; height:78px" data-action="open-modal" data-modal="tonanTalent" aria-label="全年培育乡村各类人才"></button>
+            <button class="hotspot" style="left:1290px; top:162px; width:205px; height:78px" data-action="open-modal" data-modal="tonanNearbyEmployment" aria-label="新增农民工就近就业"></button>
+            <button class="hotspot" style="left:1288px; top:244px; width:205px; height:78px" data-action="open-modal" data-modal="tonanPovertyEmploymentYear" aria-label="脱贫就业人口规模达到"></button>
+            <button class="hotspot" style="left:1603px; top:162px; width:205px; height:78px" data-action="open-modal" data-modal="tonanPartyRectification" aria-label="软弱涣散村党组织按期整顿"></button>
+            <button class="hotspot" style="left:1609px; top:250px; width:205px; height:78px" data-action="open-modal" data-modal="tonanDispute" aria-label="矛盾纠纷"></button>
+
+            <button class="hotspot map-hotspot-baizi" style="left:1058px; top:500px; width:235px; height:190px" data-action="show-view" data-view="platform" aria-label="柏梓镇黄色地图区域"></button>
+          </section>
+
+          <section class="view" data-view="platform" aria-label="柏梓镇一体化治理智治平台页面">
+            <img class="screen-bg" src="./assets/baizi-platform.png" alt="" draggable="false" />
+            <button class="back-button" style="left:48px; top:34px; width:170px; height:42px" data-action="show-view" data-view="tonan" aria-label="返回潼南区">返回潼南区</button>
+            <button class="hotspot" style="left:1784px; top:824px; width:106px; height:124px" data-action="show-view" data-view="lemon" aria-label="特色场景"></button>
+          </section>
+
+          <section class="view" data-view="lemon" aria-label="柏梓镇柠檬场景页面">
+            <img class="screen-bg" src="./assets/lemon-scene.png" alt="" draggable="false" />
+            <button class="back-button" style="left:48px; top:34px; width:210px; height:42px" data-action="show-view" data-view="platform" aria-label="返回治理平台">返回治理平台</button>
+
+            <button class="hotspot" style="left:694px; top:119px; width:282px; height:94px" data-action="open-modal" data-modal="lemonNewArea" aria-label="新增柠檬种植面积"></button>
+            <button class="hotspot" style="left:991px; top:119px; width:282px; height:94px" data-action="open-modal" data-modal="lemonStandardArea" aria-label="标准化种植面积"></button>
+            <button class="hotspot" style="left:1288px; top:119px; width:282px; height:94px" data-action="open-modal" data-modal="lemonYield" aria-label="平均单产提升"></button>
+            <button class="hotspot" style="left:1585px; top:119px; width:282px; height:94px" data-action="open-modal" data-modal="lemonFutureOrchard" aria-label="建设未来果园"></button>
+
+            <button class="hotspot" style="left:2190px; top:1292px; width:310px; height:96px" data-action="open-assistant" data-tab="growth" aria-label="柠檬助手"></button>
+          </section>
+
+          <div id="modalLayer" class="modal-layer" hidden>
+            <div id="modalShell" class="modal-shell">
+              <img id="modalImage" class="modal-image" src="" alt="" draggable="false" />
+              <div id="modalHotspots"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
