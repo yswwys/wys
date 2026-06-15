@@ -1,0 +1,286 @@
+{
+  "before": 42221049,
+  "after": 8366280,
+  "files": [
+    {
+      "from": "modal-assistant-growth.png",
+      "to": "modal-assistant-growth.webp",
+      "before": 370246,
+      "after": 87666,
+      "width": 1707,
+      "height": 987,
+      "beforeMB": 0.35,
+      "afterMB": 0.08
+    },
+    {
+      "from": "modal-assistant-pest.png",
+      "to": "modal-assistant-pest.webp",
+      "before": 366950,
+      "after": 85456,
+      "width": 1707,
+      "height": 987,
+      "beforeMB": 0.35,
+      "afterMB": 0.08
+    },
+    {
+      "from": "modal-assistant-psyllid.png",
+      "to": "modal-assistant-psyllid.webp",
+      "before": 381201,
+      "after": 83558,
+      "width": 1707,
+      "height": 987,
+      "beforeMB": 0.36,
+      "afterMB": 0.08
+    },
+    {
+      "from": "modal-baizi-future-orchard.png",
+      "to": "modal-baizi-future-orchard.webp",
+      "before": 303840,
+      "after": 44706,
+      "width": 820,
+      "height": 560,
+      "beforeMB": 0.29,
+      "afterMB": 0.04
+    },
+    {
+      "from": "modal-baizi-new-area.png",
+      "to": "modal-baizi-new-area.webp",
+      "before": 309235,
+      "after": 51316,
+      "width": 820,
+      "height": 560,
+      "beforeMB": 0.29,
+      "afterMB": 0.05
+    },
+    {
+      "from": "modal-baizi-standard-area.png",
+      "to": "modal-baizi-standard-area.webp",
+      "before": 310191,
+      "after": 48486,
+      "width": 820,
+      "height": 560,
+      "beforeMB": 0.3,
+      "afterMB": 0.05
+    },
+    {
+      "from": "modal-baizi-yield.png",
+      "to": "modal-baizi-yield.webp",
+      "before": 307029,
+      "after": 47284,
+      "width": 820,
+      "height": 560,
+      "beforeMB": 0.29,
+      "afterMB": 0.05
+    },
+    {
+      "from": "modal-kpi-agri-growth.png",
+      "to": "modal-kpi-agri-growth.webp",
+      "before": 312917,
+      "after": 46180,
+      "width": 820,
+      "height": 560,
+      "beforeMB": 0.3,
+      "afterMB": 0.04
+    },
+    {
+      "from": "modal-kpi-civilization.png",
+      "to": "modal-kpi-civilization.webp",
+      "before": 313658,
+      "after": 48294,
+      "width": 820,
+      "height": 560,
+      "beforeMB": 0.3,
+      "afterMB": 0.05
+    },
+    {
+      "from": "modal-kpi-dispute.png",
+      "to": "modal-kpi-dispute.webp",
+      "before": 311627,
+      "after": 41978,
+      "width": 820,
+      "height": 560,
+      "beforeMB": 0.3,
+      "afterMB": 0.04
+    },
+    {
+      "from": "modal-kpi-investment.png",
+      "to": "modal-kpi-investment.webp",
+      "before": 313705,
+      "after": 48352,
+      "width": 820,
+      "height": 560,
+      "beforeMB": 0.3,
+      "afterMB": 0.05
+    },
+    {
+      "from": "modal-kpi-local-job.png",
+      "to": "modal-kpi-local-job.webp",
+      "before": 314071,
+      "after": 47170,
+      "width": 820,
+      "height": 560,
+      "beforeMB": 0.3,
+      "afterMB": 0.04
+    },
+    {
+      "from": "modal-kpi-party-org.png",
+      "to": "modal-kpi-party-org.webp",
+      "before": 314340,
+      "after": 49788,
+      "width": 820,
+      "height": 560,
+      "beforeMB": 0.3,
+      "afterMB": 0.05
+    },
+    {
+      "from": "modal-kpi-poverty-job-2026.png",
+      "to": "modal-kpi-poverty-job-2026.webp",
+      "before": 318328,
+      "after": 51380,
+      "width": 820,
+      "height": 560,
+      "beforeMB": 0.3,
+      "afterMB": 0.05
+    },
+    {
+      "from": "modal-kpi-poverty-job.png",
+      "to": "modal-kpi-poverty-job.webp",
+      "before": 313073,
+      "after": 46938,
+      "width": 820,
+      "height": 560,
+      "beforeMB": 0.3,
+      "afterMB": 0.04
+    },
+    {
+      "from": "modal-kpi-talent.png",
+      "to": "modal-kpi-talent.webp",
+      "before": 313136,
+      "after": 47426,
+      "width": 820,
+      "height": 560,
+      "beforeMB": 0.3,
+      "afterMB": 0.05
+    },
+    {
+      "from": "screen-baizi-platform.png",
+      "to": "screen-baizi-platform.webp",
+      "before": 2188462,
+      "after": 411394,
+      "width": 2560,
+      "height": 1440,
+      "beforeMB": 2.09,
+      "afterMB": 0.39
+    },
+    {
+      "from": "screen-broadcast.png",
+      "to": "screen-broadcast.webp",
+      "before": 2848675,
+      "after": 631948,
+      "width": 2560,
+      "height": 1440,
+      "beforeMB": 2.72,
+      "afterMB": 0.6
+    },
+    {
+      "from": "screen-lemon-brain.png",
+      "to": "screen-lemon-brain.webp",
+      "before": 3752469,
+      "after": 684436,
+      "width": 2880,
+      "height": 1530,
+      "beforeMB": 3.58,
+      "afterMB": 0.65
+    },
+    {
+      "from": "screen-lemon-scene.png",
+      "to": "screen-lemon-scene.webp",
+      "before": 4654019,
+      "after": 807274,
+      "width": 2560,
+      "height": 1440,
+      "beforeMB": 4.44,
+      "afterMB": 0.77
+    },
+    {
+      "from": "screen-main.png",
+      "to": "screen-main.webp",
+      "before": 2840437,
+      "after": 633626,
+      "width": 2560,
+      "height": 1440,
+      "beforeMB": 2.71,
+      "afterMB": 0.6
+    },
+    {
+      "from": "screen-oil-brain.png",
+      "to": "screen-oil-brain.webp",
+      "before": 4116461,
+      "after": 631892,
+      "width": 2870,
+      "height": 1616,
+      "beforeMB": 3.93,
+      "afterMB": 0.6
+    },
+    {
+      "from": "screen-oil-broadcast.png",
+      "to": "screen-oil-broadcast.webp",
+      "before": 2837801,
+      "after": 629100,
+      "width": 2560,
+      "height": 1440,
+      "beforeMB": 2.71,
+      "afterMB": 0.6
+    },
+    {
+      "from": "screen-oil-main.png",
+      "to": "screen-oil-main.webp",
+      "before": 2829054,
+      "after": 630268,
+      "width": 2560,
+      "height": 1440,
+      "beforeMB": 2.7,
+      "afterMB": 0.6
+    },
+    {
+      "from": "screen-oil-party.png",
+      "to": "screen-oil-party.webp",
+      "before": 2834876,
+      "after": 626950,
+      "width": 2560,
+      "height": 1440,
+      "beforeMB": 2.7,
+      "afterMB": 0.6
+    },
+    {
+      "from": "screen-oil-talent.png",
+      "to": "screen-oil-talent.webp",
+      "before": 2835148,
+      "after": 629288,
+      "width": 2560,
+      "height": 1440,
+      "beforeMB": 2.7,
+      "afterMB": 0.6
+    },
+    {
+      "from": "screen-party.png",
+      "to": "screen-party.webp",
+      "before": 2463784,
+      "after": 542878,
+      "width": 2560,
+      "height": 1440,
+      "beforeMB": 2.35,
+      "afterMB": 0.52
+    },
+    {
+      "from": "screen-talent.png",
+      "to": "screen-talent.webp",
+      "before": 2846316,
+      "after": 631248,
+      "width": 2560,
+      "height": 1440,
+      "beforeMB": 2.71,
+      "afterMB": 0.6
+    }
+  ]
+}

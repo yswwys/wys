@@ -1,4 +1,4 @@
-const ASSET = "./assets/";
+﻿const ASSET = "./assets/";
 const ASSET_VERSION = "20260615-modalfix";
 
 function assetUrl(file) {
@@ -40,7 +40,7 @@ const OIL_SCENES = {
 
 const SCENES = {
   "district-main": {
-    image: "screen-main.png",
+    image: "screen-main.webp",
     w: 2560,
     h: 1440,
     kind: "district",
@@ -48,7 +48,7 @@ const SCENES = {
     topMode: "main",
   },
   "district-party": {
-    image: "screen-party.png",
+    image: "screen-party.webp",
     w: 2560,
     h: 1440,
     kind: "district",
@@ -56,7 +56,7 @@ const SCENES = {
     topMode: "party",
   },
   "district-talent": {
-    image: "screen-talent.png",
+    image: "screen-talent.webp",
     w: 2560,
     h: 1440,
     kind: "district",
@@ -64,7 +64,7 @@ const SCENES = {
     topMode: "talent",
   },
   "district-broadcast": {
-    image: "screen-broadcast.png",
+    image: "screen-broadcast.webp",
     w: 2560,
     h: 1440,
     kind: "district",
@@ -72,7 +72,7 @@ const SCENES = {
     topMode: "broadcast",
   },
   "district-oil-main": {
-    image: "screen-oil-main.png",
+    image: "screen-oil-main.webp",
     w: 2560,
     h: 1440,
     kind: "district",
@@ -80,7 +80,7 @@ const SCENES = {
     topMode: "main",
   },
   "district-oil-party": {
-    image: "screen-oil-party.png",
+    image: "screen-oil-party.webp",
     w: 2560,
     h: 1440,
     kind: "district",
@@ -88,7 +88,7 @@ const SCENES = {
     topMode: "party",
   },
   "district-oil-talent": {
-    image: "screen-oil-talent.png",
+    image: "screen-oil-talent.webp",
     w: 2560,
     h: 1440,
     kind: "district",
@@ -96,7 +96,7 @@ const SCENES = {
     topMode: "talent",
   },
   "district-oil-broadcast": {
-    image: "screen-oil-broadcast.png",
+    image: "screen-oil-broadcast.webp",
     w: 2560,
     h: 1440,
     kind: "district",
@@ -104,25 +104,25 @@ const SCENES = {
     topMode: "broadcast",
   },
   "baizi-platform": {
-    image: "screen-baizi-platform.png",
+    image: "screen-baizi-platform.webp",
     w: 2560,
     h: 1440,
     kind: "baiziPlatform",
   },
   "lemon-scene": {
-    image: "screen-lemon-scene.png",
+    image: "screen-lemon-scene.webp",
     w: 2560,
     h: 1440,
     kind: "lemonScene",
   },
   "lemon-brain": {
-    image: "screen-lemon-brain.png",
+    image: "screen-lemon-brain.webp",
     w: 2880,
     h: 1530,
     kind: "lemonBrain",
   },
   "oil-brain": {
-    image: "screen-oil-brain.png",
+    image: "screen-oil-brain.webp",
     w: 2870,
     h: 1616,
     kind: "oilBrain",
@@ -130,37 +130,37 @@ const SCENES = {
 };
 
 const KPI_MODALS = {
-  agriGrowth: { image: "modal-kpi-agri-growth.png", w: 820, h: 560 },
-  investment: { image: "modal-kpi-investment.png", w: 820, h: 560 },
-  civilization: { image: "modal-kpi-civilization.png", w: 820, h: 560 },
-  talent: { image: "modal-kpi-talent.png", w: 820, h: 560 },
-  localJob: { image: "modal-kpi-local-job.png", w: 820, h: 560 },
+  agriGrowth: { image: "modal-kpi-agri-growth.webp", w: 820, h: 560 },
+  investment: { image: "modal-kpi-investment.webp", w: 820, h: 560 },
+  civilization: { image: "modal-kpi-civilization.webp", w: 820, h: 560 },
+  talent: { image: "modal-kpi-talent.webp", w: 820, h: 560 },
+  localJob: { image: "modal-kpi-local-job.webp", w: 820, h: 560 },
   povertyJob: {
-    image: "modal-kpi-poverty-job.png",
+    image: "modal-kpi-poverty-job.webp",
     w: 820,
     h: 560,
     tabs: [{ x: 594, y: 265, w: 98, h: 225, to: "povertyJob2026" }],
   },
   povertyJob2026: {
-    image: "modal-kpi-poverty-job-2026.png",
+    image: "modal-kpi-poverty-job-2026.webp",
     w: 820,
     h: 560,
     tabs: [{ x: 636, y: 20, w: 110, h: 32, to: "povertyJob" }],
   },
-  partyOrg: { image: "modal-kpi-party-org.png", w: 820, h: 560 },
-  dispute: { image: "modal-kpi-dispute.png", w: 820, h: 560 },
+  partyOrg: { image: "modal-kpi-party-org.webp", w: 820, h: 560 },
+  dispute: { image: "modal-kpi-dispute.webp", w: 820, h: 560 },
 };
 
 const BAIZI_MODALS = {
-  newArea: { image: "modal-baizi-new-area.png", w: 820, h: 560 },
-  standardArea: { image: "modal-baizi-standard-area.png", w: 820, h: 560 },
-  yield: { image: "modal-baizi-yield.png", w: 820, h: 560 },
-  futureOrchard: { image: "modal-baizi-future-orchard.png", w: 820, h: 560 },
+  newArea: { image: "modal-baizi-new-area.webp", w: 820, h: 560 },
+  standardArea: { image: "modal-baizi-standard-area.webp", w: 820, h: 560 },
+  yield: { image: "modal-baizi-yield.webp", w: 820, h: 560 },
+  futureOrchard: { image: "modal-baizi-future-orchard.webp", w: 820, h: 560 },
 };
 
 const ASSISTANT_MODALS = {
   growth: {
-    image: "modal-assistant-growth.png",
+    image: "modal-assistant-growth.webp",
     w: 1707,
     h: 987,
     tabs: [
@@ -169,7 +169,7 @@ const ASSISTANT_MODALS = {
     ],
   },
   psyllid: {
-    image: "modal-assistant-psyllid.png",
+    image: "modal-assistant-psyllid.webp",
     w: 1707,
     h: 987,
     tabs: [
@@ -178,7 +178,7 @@ const ASSISTANT_MODALS = {
     ],
   },
   pest: {
-    image: "modal-assistant-pest.png",
+    image: "modal-assistant-pest.webp",
     w: 1707,
     h: 987,
     tabs: [
@@ -370,3 +370,4 @@ window.addEventListener("keydown", (event) => {
 
 const initialScene = SCENES[location.hash.slice(1)] ? location.hash.slice(1) : "district-main";
 showScene(initialScene);
+
