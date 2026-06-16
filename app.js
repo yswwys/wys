@@ -1,5 +1,5 @@
 ﻿const ASSET = "./assets/";
-const ASSET_VERSION = "20260615-modalfix";
+const ASSET_VERSION = "20260616-effect-modal";
 
 function assetUrl(file) {
   return `${ASSET}${file}?v=${ASSET_VERSION}`;
@@ -158,6 +158,15 @@ const BAIZI_MODALS = {
   futureOrchard: { image: "modal-baizi-future-orchard.webp", w: 820, h: 560 },
 };
 
+const LEMON_SCENE_MODALS = {
+  effectEvaluation: {
+    image: "modal-lemon-effect-evaluation.webp",
+    w: 1174,
+    h: 832,
+    closeBox: { x: 1101, y: 12, w: 58, h: 37 },
+  },
+};
+
 const ASSISTANT_MODALS = {
   growth: {
     image: "modal-assistant-growth.webp",
@@ -304,6 +313,9 @@ function renderLemonSceneHotspots() {
   BAIZI_KPI_BOXES.forEach((box) => {
     makeButton(box, `open Baizi KPI modal ${box.modal}`, () => showModal("baizi", box.modal));
   });
+  makeButton({ x: 2431, y: 1060, w: 65, h: 22 }, "open lemon effect evaluation", () =>
+    showModal("lemonScene", "effectEvaluation"),
+  );
   makeButton({ x: 1641, y: 825, w: 230, h: 209 }, "open lemon assistant", () => showModal("assistant", "growth"));
   makeButton({ x: 2053, y: 58, w: 138, h: 40 }, "return to Baizi platform", () => showScene("baizi-platform"));
 }
@@ -336,7 +348,7 @@ function showModal(type, id) {
       makeButton(tab, `assistant tab ${tab.to}`, () => showModal("assistant", tab.to), modal, "modal-hotspot");
     });
   } else {
-    makeButton({ x: config.w - 60, y: 14, w: 48, h: 48 }, "close modal", clearModal, modal, "modal-hotspot");
+    makeButton(config.closeBox || { x: config.w - 60, y: 14, w: 48, h: 48 }, "close modal", clearModal, modal, "modal-hotspot");
     if (config.tabs) {
       config.tabs.forEach((tab) => {
         makeButton(tab, `modal detail ${tab.to}`, () => showModal(type, tab.to), modal, "modal-hotspot");
@@ -348,6 +360,7 @@ function showModal(type, id) {
 function getModalConfig(type, id) {
   if (type === "kpi") return KPI_MODALS[id];
   if (type === "baizi") return BAIZI_MODALS[id];
+  if (type === "lemonScene") return LEMON_SCENE_MODALS[id];
   if (type === "assistant") return ASSISTANT_MODALS[id];
   return null;
 }

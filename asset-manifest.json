@@ -1,6 +1,6 @@
 {
-  "before": 42221049,
-  "after": 8366280,
+  "before": 43193657,
+  "after": 8563092,
   "files": [
     {
       "from": "modal-assistant-growth.png",
@@ -163,6 +163,16 @@
       "afterMB": 0.05
     },
     {
+      "from": "modal-lemon-effect-evaluation.png",
+      "to": "modal-lemon-effect-evaluation.webp",
+      "before": 590131,
+      "after": 109696,
+      "width": 1174,
+      "height": 832,
+      "beforeMB": 0.56,
+      "afterMB": 0.1
+    },
+    {
       "from": "screen-baizi-platform.png",
       "to": "screen-baizi-platform.webp",
       "before": 2188462,
@@ -265,12 +275,12 @@
     {
       "from": "screen-party.png",
       "to": "screen-party.webp",
-      "before": 2463784,
-      "after": 542878,
+      "before": 2846261,
+      "after": 629994,
       "width": 2560,
       "height": 1440,
-      "beforeMB": 2.35,
-      "afterMB": 0.52
+      "beforeMB": 2.71,
+      "afterMB": 0.6
     },
     {
       "from": "screen-talent.png",
